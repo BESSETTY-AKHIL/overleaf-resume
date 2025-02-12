@@ -1,0 +1,185 @@
+%-------------------------
+% Resume in Latex
+% Author: Bheesetty Akhil
+% Based on: Sourabh Wilmer Gonzale repo
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+% Page coloring, fonts, and logos
+\usepackage{pagecolor}
+\usepackage{lato}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{fontawesome}
+% ---
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% ---
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{1pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% ---
+
+% Custom commands
+\newcommand{\sepsection}{\vspace{25pt}}
+
+\newcommand{\resumeItem}[1]{%2
+  \item\small{
+    #1
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{8pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{1pt}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+\renewcommand{\labelitemii}{$\circ$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeTech}[2]{
+ \underline{#1:} #2
+}
+
+% COLOR THEMES SELECTION
+% For Light theme un-comment this and comment the Dark theme section below
+\colorlet{textcolor}{black}
+\colorlet{urlcolor}{blue}
+
+\begin{document}
+% ---
+
+% HEADING
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Akhil Bheesetty} \href{https://akhilbheesetty.netlify.app/}{\color{urlcolor} \faicon{link}}\\
+  Web Developer & \href{mailto:bheesettyakhil@gmail.com}{\color{urlcolor}{\faicon{envelope}} \color{textcolor} bheesettyakhil@gmail.com} \\
+  \textsl{Visakhapatnam.} & \href{https://www.linkedin.com/in/bheesetty-akhil/}{ \color{urlcolor}{\faicon{linkedin}} \color{textcolor} BheesettyAkhil} \\
+  & \href{https://github.com/BESSETTY-AKHIL}{  \color{urlcolor}{\faicon{github}} \color{textcolor} BheesettyAkhil}\\
+\end{tabular*}
+% ---
+
+% EXPERIENCE
+\section{Internships}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lotus Wireless Technologies.}{Vizag}
+      {Frontend Developer (Intern)}{Jan 2025 - Present}
+      \resumeItemListStart
+      \resumeItem{Developed responsive, dynamic web pages using React and Tailwind CSS, ensuring a seamless user experience.}
+      \resumeItem{Collaborated with the team to implement reusable components, improving code maintainability and scalability.}
+      \resumeItemListEnd
+      \resumeTech{Technologies}{React.js, Tailwind CSS, Java.}\\
+  \resumeSubHeadingListEnd
+
+% PROGRAMMING SKILLS
+\section{Technical Skills}
+\resumeSubHeadingListStart
+  \resumeSubItem{\textbf{Programming languages:}}{JavaScript, HTML, CSS.}
+  \resumeSubItem{\textbf{Cloud services:}}{AWS (EC2), Firebase (backend services, authentication).}
+  \resumeSubItem{\textbf{Frameworks/Libraries:}}{React, Tailwind CSS, Node.js}
+  \resumeSubItem{\textbf{Tools:}}{GIT}
+  \resumeSubItem{\textbf{Currently learning:}}{Vite, Node.js.}
+\resumeSubHeadingListEnd
+
+% EDUCATION
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Veltech University}{(CGPA-7.16), Chennai}
+      {Computer Science Engineering}{July 2021 -- May 2024}
+      \resumeItemListStart
+      \resumeItem{Took courses on: Introduction to Data Science, Advanced Topics in Data Science, Artificial Intelligence, Data Mining, Web Development, NoSQL Databases, Digital Image Processing.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\vspace{1em}
+
+% CERTIFICATIONS
+\section{Certifications \color{urlcolor}{(with links)}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {@ Udemy/AICTE/Cisco/IBM Mainframes/NPTEL}{MOOC}    
+      {\href{https://drive.google.com/file/d/1lIOzElAq6oOHRH3WzYoODO-WTWDqMLoO/view?usp=sharing}{Introduction to Industry 4.0 and Industrial Internet of Things}}{(NPTEL) Issued Oct 2023}
+    
+    \resumeSubSubheading
+      {\href{https://drive.google.com/file/d/1YxJYC0lC-SKWupXCgDGDysft7NFxbCYg/view?usp=sharing}{Introduction to z/OS Commands and Panels on IBM Z}}{(IBM Mainframes) Issued Sept 2023}
+    
+    \resumeSubSubheading
+      {\href{https://drive.google.com/file/d/1YxPdtW3SVGi28hDB7YdIAg87StNY21qU/view?usp=sharing}{Introduction to System Programming on IBM Z}}{(IBM Mainframes) Issued Sept 2023}
+    
+    \resumeSubSubheading
+      {\href{https://drive.google.com/file/d/1LrH9S3nOEQWKxJ4_n0gSzRmtz_1xKjy0/view?usp=sharing}{Introduction to IBM z/OS}}{(IBM Mainframes) Issued Aug 2023}
+    
+    \resumeSubSubheading
+      {\href{https://drive.google.com/file/d/1Vmw4h63CALq4n6YTZMoXwgfyl9K8dDWP/view?usp=sharing}{Cybersecurity Essentials}}{(Cisco) Issued March 2023}
+    
+    \resumeSubSubheading
+      {\href{https://drive.google.com/file/d/1evUSlC78i9-uaPSyIoNdx80J9eUBTep5/view?usp=sharing}{CCNAv7: Introduction to Networks}}{(Cisco) Issued Jun 2022}
+    
+    \resumeSubSubheading
+      {\href{https://drive.google.com/file/d/1evYdCZtxkUPe8pceLCawFXz1kgIyICaR/view?usp=sharing}{Robotic Process Automation (RPA) Virtual Internship}}{(AICTE) Issued May 2022}
+    
+    \resumeSubSubheading
+      {\href{https://www.udemy.com/certificate/UC-8ef1085b-6457-4918-aeab-c82d31a10d0d/}{Identify Problems with Artificial Intelligence - Case Study}}{(Udemy) Issued Nov 2021}
+  \resumeSubHeadingListEnd
+
+% PROJECTS
+\section{Projects \color{urlcolor}{(with links)}}
+  \resumeSubHeadingListStart
+\resumeSubItem{\sl Portfolio Website Development (React, Vite, TailwindCSS, TypeScript)} \hfill Jan 2025 \\[1em]
+Developed a portfolio website using React, Vite, TailwindCSS, and TypeScript to showcase my projects and skills. By leveraging TailwindCSS, I created a sleek, mobile-first design that is both responsive and easily customizable. I utilized TypeScript to ensure type safety and improve the overall maintainability of the code. With Vite as the build tool, I optimized the site for faster load times and a smoother development experience. The website's architecture is component-based, allowing for easy updates and scalability as my portfolio grows. I also focused on creating smooth transitions, ensuring accessibility, and testing for cross-browser compatibility, making the site user-friendly and accessible on all devices. The project is deployed on Netlify, allowing for easy access anytime, anywhere.  
+\hspace{1em} \href{https://github.com/BESSETTY-AKHIL/my-portfolio-}{\faGithub\ \textbf{Source Code}} 
+
+    
+    \resumeSubItem{\sl Major Project} \hfill June 2024 - July 2024 \\[1em]
+    Developed a Network Attached Storage (NAS) system using Raspberry Pi and Python, enabling efficient file sharing and storage. Designed a user-friendly web interface for monitoring and managing storage data. Configured Raspberry Pi as both a central CPU and Wi-Fi access point for device connectivity. Integrated AWS cloud services for remote access, enhancing scalability and enabling secure, real-time access to the server.
+    \hspace{1em} \href{https://drive.google.com/file/d/1gnI2FW6ZmTYb8n9Va7JCj7dqL6X9jquN/view?usp=sharing}{\textbf{Link for the documentation}}
+  \resumeSubHeadingListEnd
+
+% PERSONAL PUBLICATIONS
+\section{Personal Achievements \color{urlcolor}{(with links)}}
+    \resumeSubItem{\href{https://drive.google.com/file/d/1eqL2zwmEYjyHlmYJ2pU2dnYovuRCeRzb/view?usp=sharing}{Nation Intellectual Property Awareness Mission}}
+    
+\end{document}
